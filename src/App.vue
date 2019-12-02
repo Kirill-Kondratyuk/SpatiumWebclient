@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <Navbar/>
+        <router-view></router-view>
+      <div style="width: 100%">
+        <b-jumbotron bg-variant="dark" text-variant="light" style="margin-bottom: 0; margin-top: 40px" fluid size="">
+          <p style="text-align: center">Spatium AR application</p>
+        </b-jumbotron>
+      </div>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import Navbar from "./components/Navbar";
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        name: 'app',
+        components: {
+            Navbar
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    body {
+        background-color: #a2a2a2;
+    }
 </style>
