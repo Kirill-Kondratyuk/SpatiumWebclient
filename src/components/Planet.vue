@@ -1,6 +1,6 @@
 <template>
     <div id="planet">
-        <b-card :img-src="require(`../assets/${this.planet.img}`)" :title="this.planet.name" img-height="500">
+        <b-card :img-src="require(`../assets/${this.planet.img}`)" :title="this.planet.name" img-height="300">
             <b-card-text>{{this.planet.stats}}</b-card-text>
         </b-card>
     </div>
@@ -28,7 +28,7 @@
 
 <style scoped>
     #planet{
-        width: 65%;
+        width: 100%;
         margin: 10px auto 0;
         font-size: 12px;
     }

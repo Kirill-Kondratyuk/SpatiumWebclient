@@ -3,7 +3,7 @@
         <div class="planet">
             <b-card @click="getInfo(planet)" v-for="planet in planets" :key="planet.name" :header="planet.name"
                     :img-src="require(`../assets/${planet.img}`)" bg-variant="dark" text-variant="light"
-                    style="width: 40%" align="center" img-bottom height="3" width="3"
+                    style="width: 70%" align="center" img-bottom height="3" width="3"
                     class="planet-card" no-body>
 
             </b-card>

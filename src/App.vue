@@ -2,7 +2,7 @@
     <div id="app">
         <Navbar/>
         <router-view></router-view>
-      <div style="width: 100%">
+      <div style="width: 100%; margin-bottom: 0">
         <b-jumbotron bg-variant="dark" text-variant="light" style="margin-bottom: 0; margin-top: 40px" fluid size="">
           <p style="text-align: center">Spatium AR application</p>
         </b-jumbotron>
