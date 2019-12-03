@@ -24,7 +24,7 @@
 
 <style scoped>
  #description{
-     width: 80%;
+     width: 95%;
      margin: 20px auto 0;
  }
  a {
