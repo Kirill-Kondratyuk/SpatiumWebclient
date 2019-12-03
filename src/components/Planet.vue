@@ -30,6 +30,6 @@
     #planet{
         width: 100%;
         margin: 10px auto 0;
-        font-size: 12px;
+        font-size: 16px;
     }
 </style>
